@@ -80,7 +80,7 @@ export default class Thumb extends Component {
         <Animated.View
           style={[
             styles.thumb,
-            { backgroundColor: color, left: position, width: size, borderRadius: radius, aspectRatio: 1},
+            { backgroundColor: color, left: position, width: size, height:size, borderRadius: radius, aspectRatio: 1},
           ]}
         >
           {noIcon || (
