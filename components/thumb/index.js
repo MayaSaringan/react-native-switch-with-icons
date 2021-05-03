@@ -88,7 +88,7 @@ export default class Thumb extends Component {
               source={icons[value]}
               style={[
                 styles.icon,
-                { tintColor: iconColor, width: '50%', aspectRatio: 1},
+                { tintColor: iconColor, width: '50%', height:size, aspectRatio: 1},
               ]}
             />
           )}
